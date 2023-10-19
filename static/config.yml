@@ -15,6 +15,17 @@ collections:
           - {label: Image, name: image, widget: image}
           - {label: Button Text, name: buttonText, widget: string}
           - {label: Button Link, name: buttonLink, widget: string}
+          - {label: Content Title, name: contentTitle, widget: string}
+          - {label: Content Image, name: contentImage, widget: image}
+          - label: "Content Cards"
+            name: "contentCards"
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - {label: Card Icon, name: cardIcon, widget: image}
+              - {label: Card Title, name: cardTitle, widget: string}
+              - {label: Card Content, name: cardContent, widget: string}
+
       - label: "Gallery"
         name: "gallery"
         file: "src/routes/gallery/+page.md"
