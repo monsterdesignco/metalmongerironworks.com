@@ -11,6 +11,10 @@ collections:
         file: "src/routes/+page.md"
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Image, name: image, widget: image}
+          - {label: Button Text, name: buttonText, widget: string}
+          - {label: Button Link, name: buttonLink, widget: string}
       - label: "Gallery"
         name: "gallery"
         file: "src/routes/gallery/+page.md"

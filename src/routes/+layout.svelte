@@ -1,6 +1,7 @@
 <script>
+	import Navbar from './../lib/components/navbar.svelte';
   import "../app.postcss";
-  import "../app.postcss";
-</script>
 
+</script>
+<Navbar/>
 <slot />
