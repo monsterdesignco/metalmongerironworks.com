@@ -1,8 +1,12 @@
-<section class="bg-white dark:bg-gray-900">
+<script>
+    export let contentTitle = 'Change Me!';
+    export let contentBackground = '';
+</script>
+
+<section class="bg-white dark:bg-gray-900" style="background-image: url('{contentBackground}')">
     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         <div class="text-center text-gray-900">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 lg:text-5xl dark:text-white">Turn
-                collaboration into innovation</h2>
+            <h2 class="mb-4 text-4xl font-heading font-bold text-white lg:text-5xl dark:text-white">{contentTitle}</h2>
             <a href="#"
                 class="inline-flex items-center text-lg font-medium text-primary-600 hover:text-primary-800 dark:text-primary-500 dark:hover:text-primary-700">
                 Learn more about inner source
