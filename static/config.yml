@@ -1,0 +1,24 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+media_folder: src/lib/assets/images/uploads # Folder where user uploaded files should go
+collections:
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Home Page"
+        name: "home"
+        file: "src/routes/+page.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+      - label: "Gallery"
+        name: "gallery"
+        file: "src/routes/gallery/+page.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - label: Photos
+            name: phoptos
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Photo, name: photo, widget: image}
