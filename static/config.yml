@@ -19,8 +19,8 @@ collections:
             name: "navLinks"
             widget: list
             fields:
-              - {label: Link, name: link, widget: string}
               - {label: Text, name: text, widget: string}
+              - {label: Link, name: link, widget: string}
           - {label: Button Text, name: ButtonText, widget: string}
           - {label: Button Link, name: ButtonLink, widget: string}
       - label: "Footer"
@@ -40,6 +40,7 @@ collections:
             collapsed: true
             fields:
               - {label: Logo, name: logo, widget: image}
+              - {label: Link, name: link, widget: string}
               - {label: Description, name: description, widget: string}
       - label: "Social Media"
         name: "socialMedia"
