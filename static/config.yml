@@ -1,7 +1,11 @@
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
-media_folder: uploads # Folder where user uploaded files should go
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: "df9zmnqsz"
+    api_key: "478137757189598"
 collections:
   - label: "Global"
     name: "global"
@@ -44,8 +48,8 @@ collections:
           - {label: Facebook, name: facebook, widget: string}
           - {label: Instagram, name: instagram, widget: string}
           - {label: Linkedin, name: linkedin, widget: string}
-  - label: "Pages"
-    name: "pages"
+  - label: "Static Pages"
+    name: "staticPages"
     files:
       - label: "Home Page"
         name: "home"
@@ -151,3 +155,15 @@ collections:
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Photo, name: photo, widget: image}
+  - label: "Blog"
+    name: "blog"
+    folder: "src/routes/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: Title, name: title, widget: string}
+      - {label: Date, name: date, widget: datetime}
+      - {label: Body, name: body, widget: markdown}
+      - {label: Image, name: image, widget: image}
+      - {label: Tags, name: tags, widget: list}
