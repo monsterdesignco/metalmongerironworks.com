@@ -3,6 +3,47 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 media_folder: uploads # Folder where user uploaded files should go
 collections:
+  - label: "Global"
+    name: "global"
+    files:
+      - label: "Header"
+        name: "header"
+        file: "src/lib/components/header.md"
+        fields:
+          - {label: Logo, name: logo, widget: image}
+          - label: "Navligation Links"
+            name: "navLinks"
+            widget: list
+            fields:
+              - {label: Link, name: link, widget: string}
+              - {label: Text, name: text, widget: string}
+          - {label: Button Text, name: ButtonText, widget: string}
+          - {label: Button Link, name: ButtonLink, widget: string}
+      - label: "Footer"
+        name: "footer"
+        file: "src/lib/components/footer.md"
+        fields:
+          - {label: Logo, name: logo, widget: image}
+          - label: "Navligation Links"
+            name: "navLinks"
+            widget: list
+            fields:
+              - {label: Link, name: link, widget: string}
+              - {label: Text, name: text, widget: string}
+          - label: "Agency Info"
+            name: "agencyInfo"
+            widget: object
+            collapsed: true
+            fields:
+              - {label: Logo, name: logo, widget: image}
+              - {label: Description, name: description, widget: string}
+      - label: "Social Media"
+        name: "socialMedia"
+        file: "src/lib/components/socialMedia.md"
+        fields:
+          - {label: Facebook, name: facebook, widget: string}
+          - {label: Instagram, name: instagram, widget: string}
+          - {label: Linkedin, name: linkedin, widget: string}
   - label: "Pages"
     name: "pages"
     files:
@@ -10,32 +51,102 @@ collections:
         name: "home"
         file: "src/routes/+page.md"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Button Text, name: buttonText, widget: string}
-          - {label: Button Link, name: buttonLink, widget: string}
-          - {label: Content Title, name: contentTitle, widget: string}
-          - {label: Content Image, name: contentImage, widget: image}
-          - label: "Content Cards"
-            name: "contentCards"
-            widget: list
-            summary: "{{fields.title}}"
+          - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            collapsed: true
             fields:
-              - {label: Card Icon, name: cardIcon, widget: image}
-              - {label: Card Title, name: cardTitle, widget: string}
-              - {label: Card Content, name: cardContent, widget: string}
-          - label: "About Page"
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subtitle, widget: string}
+              - {label: Image, name: image, widget: image}
+              - {label: Button Text, name: buttonText, widget: string}
+              - {label: Button Link, name: buttonLink, widget: string}
+          - label: "Content"
+            name: "Content"
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: Content Title, name: contentTitle, widget: string}
+              - {label: Content Image, name: contentImage, widget: image}
+              - label: "Content Cards"
+                name: "contentCards"
+                widget: list
+                summary: "{{fields.title}}"
+                fields:
+                  - {label: Card Icon, name: cardIcon, widget: image}
+                  - {label: Card Title, name: cardTitle, widget: string}
+                  - {label: Card Content, name: cardContent, widget: string}
+          - label: "About"
             name: "about"
-            
-
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Fancy Title, name: fancyTitle, widget: markdown}
+              - {label: Image, name: image, widget: image}
+          - label: "Gallery"
+            name:  "gallery"
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: First Title, name: firstTitle, widget: string}
+              - {label: First Description, name: firstDescription, widget: string}
+              - {label: Second Title, name: secondTitle, widget: string}
+              - {label: Second Description, name: secondDescription, widget: string}
+              - {label: Button Text, name: buttonText, widget: string}
+              - {label: Button Link, name: buttonLink, widget: string}
+              - label: "Bullets"
+                name: "bullets"
+                max: 10
+                widget: list
+                fields:
+                  - {label: Bullet, name: bullet, widget: string}
+              - label: "Photos"
+                name: "photos"
+                min: 6
+                max: 6
+                widget: list
+                fields:
+                  - {label: Title, name: title, widget: string}
+                  - {label: Photo, name: photo, widget: image}
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subtitle, widget: string}
+              - {label: Image, name: image, widget: image}
+              - label: "Cards"
+                name: "cards"
+                widget: list
+                summary: "{{fields.title}}"
+                fields:
+                  - {label: Card Icon, name: cardIcon, widget: image}
+                  - {label: Card Title, name: cardTitle, widget: string}
+                  - {label: Card Content, name: cardContent, widget: string}
+                  - {label: link, name: link, widget: string}
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: Image, name: image, widget: string}
+              - label: Reviews
+                name: Reviews
+                widget: list
+                fields:
+                  - {label: Review, name: review, widget: string}
+                  - {label: Author, name: author, widget: string}
       - label: "Gallery"
         name: "gallery"
         file: "src/routes/gallery/+page.md"
         fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "gallery"}
           - {label: Title, name: title, widget: string}
-          - label: Photos
-            name: phoptos
+          - label: "Photos"
+            name: "photos"
             widget: list
             fields:
               - {label: Title, name: title, widget: string}

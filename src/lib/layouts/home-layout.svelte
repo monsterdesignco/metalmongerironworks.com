@@ -11,10 +11,6 @@
     export let contentTitle = "Change Me!"
     export let contentImage
     export let contentCards
-
-
-
-
 </script>
 <Hero {title} {subtitle} {image} {buttonLink} {buttonText}/>
 <Content {contentTitle} {contentImage} {contentCards} />
