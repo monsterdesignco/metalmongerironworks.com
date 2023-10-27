@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  branch: main
 media_library:
   name: cloudinary
   config:
@@ -14,6 +14,7 @@ collections:
         name: "header"
         file: "src/lib/components/header.md"
         fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "header"}
           - {label: Logo, name: logo, widget: image}
           - label: "Navligation Links"
             name: "navLinks"
@@ -27,6 +28,7 @@ collections:
         name: "footer"
         file: "src/lib/components/footer.md"
         fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "footer"}
           - {label: Logo, name: logo, widget: image}
           - label: "Navligation Links"
             name: "navLinks"
