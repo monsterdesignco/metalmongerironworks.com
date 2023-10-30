@@ -21,11 +21,11 @@ collections:
             fields:
               - {label: Text, name: text, widget: string}
               - {label: Link, name: link, widget: string}
-          - {label: Button Text, name: buttonText, widget: string}
-          - {label: Button Link, name: buttonLink, widget: string}
+          - {label: Button Text, name: text, widget: string}
+          - {label: Button Link, name: link, widget: string}
       - label: "Footer"
         name: "footer"
-        file: "src/lib/content.json"
+        file: "src/lib/content/footer.json"
         fields:
           - {label: Logo, name: logo, widget: image}
           - label: "Navligation Links"
@@ -54,7 +54,7 @@ collections:
     files:
       - label: "Home Page"
         name: "home"
-        file: "src/content/home.json"
+        file: "src/lib/content/home.json"
         fields:
           - label: "Hero"
             name: "hero"
@@ -64,16 +64,16 @@ collections:
               - {label: Title, name: title, widget: string}
               - {label: Subtitle, name: subtitle, widget: string}
               - {label: Image, name: image, widget: image}
-              - {label: Button Text, name: buttonText, widget: string}
-              - {label: Button Link, name: buttonLink, widget: string}
+              - {label: Button Text, name: text, widget: string}
+              - {label: Button Link, name: link, widget: string}
           - label: "Content"
             name: "Content"
             widget: "object"
             collapsed: true
             fields:
-              - {label: Content Title, name: contentTitle, widget: string}
-              - {label: Content Image, name: contentImage, widget: image}
-              - label: "Content Cards"
+              - {label: Title, name: title, widget: string}
+              - {label: Image, name: image, widget: image}
+              - label: "Cards"
                 name: "contentCards"
                 widget: list
                 summary: "{{fields.title}}"
@@ -87,7 +87,7 @@ collections:
             collapsed: true
             fields:
               - {label: Title, name: title, widget: string}
-              - {label: Fancy Title, name: fancyTitle, widget: markdown}
+              - {label: Fancy Title, name: fancyTitle, widget: string}
               - {label: Image, name: image, widget: image}
           - label: "Gallery"
             name:  "gallery"
@@ -98,8 +98,8 @@ collections:
               - {label: First Description, name: firstDescription, widget: string}
               - {label: Second Title, name: secondTitle, widget: string}
               - {label: Second Description, name: secondDescription, widget: string}
-              - {label: Button Text, name: buttonText, widget: string}
-              - {label: Button Link, name: buttonLink, widget: string}
+              - {label: Text, name: text, widget: string}
+              - {label: Link, name: link, widget: string}
               - label: "Bullets"
                 name: "bullets"
                 max: 10
@@ -127,21 +127,21 @@ collections:
                 widget: list
                 summary: "{{fields.title}}"
                 fields:
-                  - {label: Card Icon, name: cardIcon, widget: image}
-                  - {label: Card Title, name: cardTitle, widget: string}
-                  - {label: Card Content, name: cardContent, widget: string}
-                  - {label: link, name: link, widget: string}
+                  - {label: Icon, name: icon, widget: image}
+                  - {label: Title, name: title, widget: string}
+                  - {label: Content, name: content, widget: string}
+                  - {label: Link, name: link, widget: string}
           - label: "Testimonials"
             name: "testimonials"
             widget: "object"
             collapsed: true
             fields:
-              - {label: Image, name: image, widget: string}
-              - label: Reviews
-                name: Reviews
+              - {label: Image, name: image, widget: image}
+              - label: Testimonials
+                name: testimonials
                 widget: list
                 fields:
-                  - {label: Review, name: review, widget: string}
+                  - {label: Testimonial, name: testimonial, widget: string}
                   - {label: Author, name: author, widget: string}
       - label: "Gallery"
         name: "gallery"
