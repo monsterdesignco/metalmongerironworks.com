@@ -1,0 +1,229 @@
+{
+  "hero": {
+    "title": "Crafting Elegance in Iron!",
+    "subtitle": "At Metal Monger, we transform the ordinary into the extraordinary, one piece of iron at a time. Let's collaborate and turn your vision into reality.",
+    "image": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688145/Hero_oogjmo.png",
+    "buttonText": "Get Started",
+    "buttonLink": "#contact",
+    "content": "At Metal Monger, we transform the ordinary into the extraordinary, one piece of iron at a time. Let's collaborate and turn your vision into reality.",
+    "button": {
+      "text": "Get Started",
+      "link": "#contact"
+    }
+  },
+  "Content": {
+    "contentTitle": "The Metal Monger Difference",
+    "contentImage": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688294/Content_f8co99.png",
+    "contentCards": [
+      {
+        "cardIcon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688456/fire-icon_co4a3o.png",
+        "cardTitle": "Custom Solutions",
+        "cardContent": "We specialize in fashioning one-of-a-kind ironwork creations that are as unique as your imagination. Our expertise lies in meticulously handcrafting custom pieces that reflect your individual style and preferences."
+      },
+      {
+        "cardIcon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688377/rocket-icon_uqtxrw.png",
+        "cardTitle": "Efficient Excellence",
+        "cardContent": "Efficiency is at the core of our operations. At Metal Monger, we take pride in our ability to deliver high-quality ironwork with unmatched precision and in a timely manner."
+      },
+      {
+        "cardIcon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688378/pin-icon_sq0y6o.png",
+        "cardTitle": "Locally Owned & Operated ",
+        "cardContent": "When you choose us, you're supporting a business that is committed to serving and enriching the local community. We take pride in being your trusted California ironwork artisans."
+      }
+    ],
+    "title": "The Metal Monger Difference",
+    "cards": [
+      {
+        "icon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688456/fire-icon_co4a3o.png",
+        "title": "Custom Solutions",
+        "content": "We specialize in fashioning one-of-a-kind ironwork creations that are as unique as your imagination. Our expertise lies in meticulously handcrafting custom pieces that reflect your individual style and preferences."
+      },
+      {
+        "icon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688377/rocket-icon_uqtxrw.png",
+        "title": "Efficient Excellence",
+        "content": "Efficiency is at the core of our operations. At Metal Monger, we take pride in our ability to deliver high-quality ironwork with unmatched precision and in a timely manner."
+      },
+      {
+        "icon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688378/pin-icon_sq0y6o.png",
+        "title": "Locally Owned & Operated ",
+        "content": "When you choose us, you're supporting a business that is committed to serving and enriching the local community. We take pride in being your trusted California ironwork artisans."
+      }
+    ],
+    "image": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688294/Content_f8co99.png"
+  },
+  "about": {
+    "title": "A little about",
+    "fancyTitle": "Dan Walters",
+    "image": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688580/about-background_vfpmjb.png",
+    "content": "“I have over 18 years of experience in ornamental iron and have built over 200 spiral stairs cases throughout my career. I started Metalmonger Iron Works in 2018 with two goals in mind, quality and professionalism.\n \nI believe in 100% customer satisfaction and will return all calls and inquries within 24 hours. I also strive to complete proposals within 48 hours with quick turn over time for projects. I believe in providing all clients with quality metal work that is both aesthetically pleasing and functional”"
+  },
+  "gallery": {
+    "photos": [
+      {
+        "photo": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688580/about-background_vfpmjb.png",
+        "title": "Man"
+      },
+      {
+        "title": "2",
+        "photo": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688580/about-background_vfpmjb.png"
+      },
+      {
+        "title": "3",
+        "photo": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688580/about-background_vfpmjb.png"
+      },
+      {
+        "title": "4",
+        "photo": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688580/about-background_vfpmjb.png"
+      },
+      {
+        "title": "5",
+        "photo": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688580/about-background_vfpmjb.png"
+      },
+      {
+        "title": "6",
+        "photo": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688580/about-background_vfpmjb.png"
+      }
+    ],
+    "secondTitle": "Elevate Your Space",
+    "firstTitle": "Built to Last",
+    "secondDescription": "See more of our work.",
+    "buttonLink": "/gallery",
+    "firstDescription": "With our custom iron creations, you can transform your living space into a work of art. From intricate railings that adorn your staircase to elegant gates that welcome you home, every piece we create is tailored to your unique vision and the character of your residence.",
+    "bullets": [
+      {
+        "bullet": "Interior Railings"
+      },
+      {
+        "bullet": "Exterior Railings"
+      },
+      {
+        "bullet": "Gates & Fences"
+      },
+      {
+        "bullet": "Spiral Staircases"
+      },
+      {
+        "bullet": "Balcony Railings"
+      },
+      {
+        "bullet": "Restorations & Repairs"
+      },
+      {
+        "bullet": "Handcrafted Designs"
+      },
+      {
+        "bullet": "Unique Artwork"
+      }
+    ],
+    "secondSection": {
+      "title": "Elevate Your Space",
+      "content": "See more of our work.",
+      "button": {
+        "text": "Project Gallery",
+        "link": "/gallery"
+      },
+      "photos": [
+        {
+          "title": "Title",
+          "photo": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688580/about-background_vfpmjb.png"
+        },
+        {
+          "title": "Title",
+          "photo": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688580/about-background_vfpmjb.png"
+        },
+        {
+          "title": "Title",
+          "photo": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688580/about-background_vfpmjb.png"
+        }
+      ]
+    },
+    "firstSection": {
+      "title": "Built to Last",
+      "content": "With our custom iron creations, you can transform your living space into a work of art. From intricate railings that adorn your staircase to elegant gates that welcome you home, every piece we create is tailored to your unique vision and the character of your residence.",
+      "bullets": [
+        {
+          "bullet": "Interior Railings"
+        },
+        {
+          "bullet": "Exterior Railings"
+        },
+        {
+          "bullet": "Gates & Fences"
+        },
+        {
+          "bullet": "Spiral Staircases"
+        },
+        {
+          "bullet": "Balcony Railings"
+        },
+        {
+          "bullet": "Restorations & Repairs"
+        },
+        {
+          "bullet": "Handcrafted Designs"
+        },
+        {
+          "bullet": "Unique Artwork"
+        }
+      ],
+      "photos": [
+        {
+          "title": "Title",
+          "photo": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688580/about-background_vfpmjb.png"
+        },
+        {
+          "title": "Title",
+          "photo": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688580/about-background_vfpmjb.png"
+        },
+        {
+          "title": "Title",
+          "photo": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688580/about-background_vfpmjb.png"
+        }
+      ]
+    },
+    "buttonText": "PROJECT GALLERY"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Whether you need a new fence, stairs, repairs or advice, Metal Monger is here to help.",
+    "image": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688840/contact-background_pve496.png",
+    "cards": [
+      {
+        "cardIcon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688913/email-icon_z450ge.png",
+        "cardTitle": "Email us",
+        "cardContent": "Email us or send a message above",
+        "link": "dan@metalmongerironworks.com",
+        "icon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688913/email-icon_z450ge.png",
+        "title": "Email us",
+        "content": "Email us or send a message above"
+      },
+      {
+        "cardIcon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688911/phone-icon_i8uiyw.png",
+        "cardTitle": "Call us",
+        "cardContent": "We’re always happy to help",
+        "link": "(916) 792-0411",
+        "icon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688911/phone-icon_i8uiyw.png",
+        "title": "Call us",
+        "content": "We’re always happy to help"
+      },
+      {
+        "cardIcon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688909/map-pin-icon_r9ec5l.png",
+        "cardTitle": "Location",
+        "cardContent": "We service El Dorado County, Sacramento County, Nevada County, & Washoe County, NV Placer County, CA",
+        "link": "#",
+        "icon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688909/map-pin-icon_r9ec5l.png",
+        "title": "Location",
+        "content": "We service El Dorado County, Sacramento County, Nevada County, & Washoe County, NV Placer County, CA"
+      }
+    ]
+  },
+  "testimonials": {
+    "image": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688294/Content_f8co99.png",
+    "testimonials": [
+      {
+        "testimonial": "hello",
+        "author": "hayden"
+      }
+    ]
+  }
+}
