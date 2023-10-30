@@ -4,6 +4,18 @@
     {
       "text": "Services",
       "link": "#services"
+    },
+    {
+      "text": "About",
+      "link": "#"
+    },
+    {
+      "text": "Gallery",
+      "link": "/gallery"
+    },
+    {
+      "text": "Contact",
+      "link": "#contact"
     }
   ],
   "ButtonText": "Get Started",
