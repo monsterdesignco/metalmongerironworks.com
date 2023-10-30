@@ -21,8 +21,13 @@ collections:
             fields:
               - {label: Text, name: text, widget: string}
               - {label: Link, name: link, widget: string}
-          - {label: Button Text, name: text, widget: string}
-          - {label: Button Link, name: link, widget: string}
+          - label: "Button"
+            name: "button"
+            widget: object
+            collapsed: true
+            fields:
+              - {label: Text, name: text, widget: string}
+              - {label: Link, name: link, widget: string}
       - label: "Footer"
         name: "footer"
         file: "src/lib/content/footer.json"
@@ -42,6 +47,7 @@ collections:
               - {label: Logo, name: logo, widget: image}
               - {label: Link, name: link, widget: string}
               - {label: Description, name: description, widget: string}
+              - {label: Copyright, name: copyright, widget: string}
       - label: "Social Media"
         name: "socialMedia"
         file: "src/lib/content/social.json"
@@ -64,8 +70,13 @@ collections:
               - {label: Title, name: title, widget: string}
               - {label: Subtitle, name: subtitle, widget: string}
               - {label: Image, name: image, widget: image}
-              - {label: Button Text, name: text, widget: string}
-              - {label: Button Link, name: link, widget: string}
+              - label: "Button"
+                name: "button"
+                widget: object
+                collapsed: true
+                fields:
+                - {label: Text, name: text, widget: string}
+                - {label: Link, name: link, widget: string}
           - label: "Content"
             name: "Content"
             widget: "object"
@@ -98,8 +109,13 @@ collections:
               - {label: First Description, name: firstDescription, widget: string}
               - {label: Second Title, name: secondTitle, widget: string}
               - {label: Second Description, name: secondDescription, widget: string}
-              - {label: Text, name: text, widget: string}
-              - {label: Link, name: link, widget: string}
+              - label: "Button"
+                name: "button"
+                widget: object
+                collapsed: true
+                fields:
+                  - {label: Text, name: text, widget: string}
+                  - {label: Link, name: link, widget: string}
               - label: "Bullets"
                 name: "bullets"
                 max: 10
