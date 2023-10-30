@@ -1,0 +1,11 @@
+{
+  "logo": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698358912/nav-logo_thukcd.png",
+  "navLinks": [
+    {
+      "text": "Services",
+      "link": "#services"
+    }
+  ],
+  "ButtonText": "Get Started",
+  "ButtonLink": "#contact"
+}
