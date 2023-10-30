@@ -9,6 +9,6 @@ navLinks:
     link: "#gallery"
   - text: Contact
     link: "#contact"
-ButtonText: Get Started!
+ButtonText: Get Started
 ButtonLink: "#contact"
 ---
