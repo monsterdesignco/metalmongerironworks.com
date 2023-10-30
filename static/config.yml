@@ -69,7 +69,6 @@ collections:
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Content, name: content, widget: text}
-              - {label: Image, name: image, widget: image}
               - label: "Button"
                 name: "button"
                 widget: object
@@ -77,13 +76,13 @@ collections:
                 fields:
                 - {label: Text, name: text, widget: string}
                 - {label: Link, name: link, widget: string}
+              - {label: Background Image, name: image, widget: image}
           - label: "Content"
             name: "Content"
             widget: "object"
             collapsed: true
             fields:
               - {label: Title, name: title, widget: string}
-              - {label: Image, name: image, widget: image}
               - label: "Cards"
                 name: "cards"
                 widget: list
@@ -92,6 +91,7 @@ collections:
                   - {label: Icon, name: icon, widget: image}
                   - {label: Title, name: title, widget: string}
                   - {label: Content, name: content, widget: text}
+              - {label: Background Image, name: image, widget: image}
           - label: "About"
             name: "about"
             widget: "object"
@@ -99,37 +99,56 @@ collections:
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Fancy Title, name: fancyTitle, widget: string}
-              - {label: Image, name: image, widget: image}
+              - {label: Content, name: content, widget: text}
+              - {label: Background Image, name: image, widget: image}
           - label: "Gallery"
             name:  "gallery"
             widget: "object"
             collapsed: true
             fields:
-              - {label: First Title, name: firstTitle, widget: string}
-              - {label: First Description, name: firstDescription, widget: string}
-              - {label: Second Title, name: secondTitle, widget: string}
-              - {label: Second Description, name: secondDescription, widget: string}
-              - label: "Button"
-                name: "button"
+              - label: "First Section"
+                name: "firstSection"
                 widget: object
                 collapsed: true
                 fields:
-                  - {label: Text, name: text, widget: string}
-                  - {label: Link, name: link, widget: string}
-              - label: "Bullets"
-                name: "bullets"
-                max: 10
-                widget: list
-                fields:
-                  - {label: Bullet, name: bullet, widget: string}
-              - label: "Photos"
-                name: "photos"
-                min: 6
-                max: 6
-                widget: list
+                  - {label: Title, name: title, widget: string}
+                  - {label: Content, name: content, widget: text}
+                  - label: "Bullets"
+                    name: "bullets"
+                    max: 10
+                    widget: list
+                    fields:
+                      - {label: Bullet, name: bullet, widget: string}
+                  - label: "Photos"
+                    name: "photos"
+                    min: 3
+                    max: 3
+                    widget: list
+                    fields:
+                      - {label: Title, name: title, widget: string}
+                      - {label: Photo, name: photo, widget: image}
+              - label: "Second Section"
+                name: "secondSection"
+                widget: object
+                collapsed: true
                 fields:
                   - {label: Title, name: title, widget: string}
-                  - {label: Photo, name: photo, widget: image}
+                  - {label: Content, name: content, widget: text}
+                  - label: "Button"
+                    name: "button"
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - {label: Text, name: text, widget: string}
+                      - {label: Link, name: link, widget: string}
+                  - label: "Photos"
+                    name: "photos"
+                    min: 3
+                    max: 3
+                    widget: list
+                    fields:
+                      - {label: Title, name: title, widget: string}
+                      - {label: Photo, name: photo, widget: image}
           - label: "Contact"
             name: "contact"
             widget: "object"
@@ -137,7 +156,7 @@ collections:
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Subtitle, name: subtitle, widget: string}
-              - {label: Image, name: image, widget: image}
+              - {label: Background Image, name: image, widget: image}
               - label: "Cards"
                 name: "cards"
                 widget: list
@@ -146,7 +165,14 @@ collections:
                   - {label: Icon, name: icon, widget: image}
                   - {label: Title, name: title, widget: string}
                   - {label: Content, name: content, widget: string}
-                  - {label: Link, name: link, widget: string}
+                  - label: "Link"
+                    name: "link"
+                    required: false
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - {label: Text, name: text, widget: string}
+                      - {label: Link, name: link, widget: string}
           - label: "Testimonials"
             name: "testimonials"
             widget: "object"
