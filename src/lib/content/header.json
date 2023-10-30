@@ -19,5 +19,9 @@
     }
   ],
   "buttonText": "Get Started",
-  "buttonLink": "#contact"
+  "buttonLink": "#contact",
+  "button": {
+    "text": "Get Started",
+    "link": "#contact"
+  }
 }
