@@ -12,7 +12,7 @@ collections:
     files:
       - label: "Header"
         name: "header"
-        file: "src/lib/components/header.md"
+        file: "src/lib/content/header.json"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "header"}
           - {label: Logo, name: logo, widget: image}
