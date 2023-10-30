@@ -14,7 +14,6 @@ collections:
         name: "header"
         file: "src/lib/content/header.json"
         fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "header"}
           - {label: Logo, name: logo, widget: image}
           - label: "Navligation Links"
             name: "navLinks"
@@ -22,13 +21,12 @@ collections:
             fields:
               - {label: Text, name: text, widget: string}
               - {label: Link, name: link, widget: string}
-          - {label: Button Text, name: ButtonText, widget: string}
-          - {label: Button Link, name: ButtonLink, widget: string}
+          - {label: Button Text, name: buttonText, widget: string}
+          - {label: Button Link, name: buttonLink, widget: string}
       - label: "Footer"
         name: "footer"
-        file: "src/lib/components/footer.md"
+        file: "src/lib/content.json"
         fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "footer"}
           - {label: Logo, name: logo, widget: image}
           - label: "Navligation Links"
             name: "navLinks"
@@ -46,7 +44,7 @@ collections:
               - {label: Description, name: description, widget: string}
       - label: "Social Media"
         name: "socialMedia"
-        file: "src/lib/components/socialMedia.md"
+        file: "src/lib/content/social.json"
         fields:
           - {label: Facebook, name: facebook, widget: string}
           - {label: Instagram, name: instagram, widget: string}
@@ -56,9 +54,8 @@ collections:
     files:
       - label: "Home Page"
         name: "home"
-        file: "src/routes/+page.md"
+        file: "src/content/home.json"
         fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
           - label: "Hero"
             name: "hero"
             widget: "object"

@@ -18,6 +18,6 @@
       "link": "#contact"
     }
   ],
-  "ButtonText": "Get Started",
-  "ButtonLink": "#contact"
+  "buttonText": "Get Started",
+  "buttonLink": "#contact"
 }
