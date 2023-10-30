@@ -1,5 +1,4 @@
 <script>
-    import dots from '$lib/assets/images/pattern-orange.png'
     export let title = "Change Me!"
     export let subtitle = "Change Me!"
     export let image = 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/coast-house-view.jpg'
@@ -20,5 +19,5 @@
             </a>
         </div>
     </div>
-    <div class=" style h-64 w-2/3 absolute z-50 -bottom-14 right-0" style="background-image: url('{dots}')"></div>
+    <!-- <div class=" style h-64 w-2/3 absolute z-50 -bottom-14 right-0" style="background-image: url('{dots}')"></div> -->
 </section>
