@@ -171,8 +171,8 @@ collections:
                     widget: object
                     collapsed: true
                     fields:
-                      - {label: Text, name: text, widget: string}
-                      - {label: Link, name: link, widget: string}
+                      - {label: Text, name: text, required: false, widget: string}
+                      - {label: Link, name: link, required: false, widget: string}
           - label: "Testimonials"
             name: "testimonials"
             widget: object
