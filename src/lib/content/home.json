@@ -116,7 +116,11 @@
       {
         "icon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688911/phone-icon_i8uiyw.png",
         "title": "Call us",
-        "content": "We’re always happy to help"
+        "content": "We’re always happy to help",
+        "link": {
+          "text": "916-792-0411",
+          "link": "phone:916-792-0411"
+        }
       },
       {
         "icon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688909/map-pin-icon_r9ec5l.png",
