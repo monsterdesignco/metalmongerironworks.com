@@ -109,13 +109,11 @@
     "image": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688840/contact-background_pve496.png",
     "cards": [
       {
-        "link": "mailto:dan@metalmongerironworks.com",
         "icon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688913/email-icon_z450ge.png",
         "title": "Email us",
         "content": "Email us or send a message above"
       },
       {
-        "link": "phone:916-792-0411",
         "icon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688911/phone-icon_i8uiyw.png",
         "title": "Call us",
         "content": "We’re always happy to help"
