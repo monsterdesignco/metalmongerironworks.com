@@ -1,9 +1,8 @@
 <script>
     export let title = "Change Me!"
-    export let subtitle = "Change Me!"
-    export let image = 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/coast-house-view.jpg'
-    export let buttonText = "Change Me!"
-    export let buttonLink = "#"
+    export let content = "Change Me!"
+    export let image = '/'
+    export let button= {text: "Change Me!", link: "#"}
 </script>
 <section class="bg-no-repeat bg-cover bg-center relative bg-blend-multiply min-h-[700px] grid place-items-center" style="background-image: url({image})">
     <div class="relative py-8 !px-16 mx-auto max-w-screen-xl text-white lg:py-16 xl:px-0 z-1 w-full ">
@@ -12,10 +11,10 @@
                 {title}
             </h1>
             <p class="mb-6 font-normal text-black lg:mb-8 md:text-lg lg:text-xl">
-                {subtitle}
+                {content}
             </p>
-            <a href="{buttonLink}" class="inline-flex items-center py-3 px-5 font-semibold text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-900 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
-                {buttonText}
+            <a href="{button.link}" class="inline-flex items-center py-3 px-5 font-semibold text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-900 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+                {button.text}
             </a>
         </div>
     </div>

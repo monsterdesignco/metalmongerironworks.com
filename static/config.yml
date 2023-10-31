@@ -78,7 +78,7 @@ collections:
                 - {label: Link, name: link, widget: string}
               - {label: Background Image, name: image, widget: image}
           - label: "Content"
-            name: "Content"
+            name: "content"
             widget: "object"
             collapsed: true
             fields:

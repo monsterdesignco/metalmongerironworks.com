@@ -1,7 +1,6 @@
 {
   "hero": {
     "title": "Crafting Elegance in Iron",
-    "subtitle": "At Metal Monger, we transform the ordinary into the extraordinary, one piece of iron at a time. Let's collaborate and turn your vision into reality.",
     "image": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688145/Hero_oogjmo.png",
     "content": "At Metal Monger, we transform the ordinary into the extraordinary, one piece of iron at a time. Let's collaborate and turn your vision into reality.",
     "button": {
@@ -9,7 +8,7 @@
       "link": "#contact"
     }
   },
-  "Content": {
+  "content": {
     "title": "The Metal Monger Difference",
     "cards": [
       {
