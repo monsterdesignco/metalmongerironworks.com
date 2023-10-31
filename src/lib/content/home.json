@@ -111,7 +111,11 @@
       {
         "icon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688913/email-icon_z450ge.png",
         "title": "Email us",
-        "content": "Email us or send a message above"
+        "content": "Email us or send a message above",
+        "link": {
+          "link": "mailto:dan@metalmongerironworks.com",
+          "text": "dan@metalmongerironworks.com"
+        }
       },
       {
         "icon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688911/phone-icon_i8uiyw.png",
