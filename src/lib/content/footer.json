@@ -1,0 +1,31 @@
+{
+  "logo": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698358912/nav-logo_thukcd.png",
+  "navLinks": [
+    {
+      "link": "#services",
+      "text": "About"
+    },
+    {
+      "link": "#about",
+      "text": "About"
+    },
+    {
+      "link": "/gallery",
+      "text": "Gallery"
+    },
+    {
+      "link": "#contact",
+      "text": "Contact"
+    },
+    {
+      "link": "/privacy-policy",
+      "text": "Privacy Policy"
+    }
+  ],
+  "agencyInfo": {
+    "description": "Design by Monster Design Co. ",
+    "copyright": "McLains Roofing. All rights reserved.",
+    "link": "https://monsterdesignco.com",
+    "logo": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698711985/MonsterDesignCoLogo_zvrufm.png"
+  }
+}
