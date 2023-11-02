@@ -13,7 +13,7 @@
         </div> 
     </div>
     <div class="py-16 px-4 mx-auto -mt-96 max-w-screen-xl sm:py-24 lg:px-6 ">
-        <form data-netlify="true" action="/thank-you"  netlify-honeypot="bot-field" name="contact" method="POST" class="grid grid-cols-1 gap-8 p-6 mx-auto mb-16 max-w-screen-md bg-white rounded-lg border border-gray-200 shadow-sm lg:mb-28 dark:bg-gray-800 dark:border-gray-700 sm:grid-cols-2">
+        <form data-netlify="true"  netlify-honeypot="bot-field" name="contact" method="POST" class="grid grid-cols-1 gap-8 p-6 mx-auto mb-16 max-w-screen-md bg-white rounded-lg border border-gray-200 shadow-sm lg:mb-28 dark:bg-gray-800 dark:border-gray-700 sm:grid-cols-2">
             <input type="hidden" name="form-name" value="contact" />
             <div>
                 <label for="first-name" name="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">First Name</label>
