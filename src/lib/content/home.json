@@ -134,11 +134,15 @@
     ]
   },
   "testimonials": {
-    "image": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688294/Content_f8co99.png",
+    "image": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698943784/Testimonials_djfsee.png",
     "testimonials": [
       {
-        "testimonial": "hello",
-        "author": "hayden"
+        "testimonial": "“Metal Monger owner, Dan Walters, was a great find. He listened to our needs and took a personal interest in our satisfaction from design and function, to installation and overall value, to help us optimize our investment in our custom bannister and deliver the quality we had hoped to receive.”",
+        "author": "Jim Stoeltzingh"
+      },
+      {
+        "testimonial": "“Metal Monger owner, Dan Walters, was a great find. He listened to our needs and took a personal interest in our satisfaction from design and function, to installation and overall value, to help us optimize our investment in our custom bannister and deliver the quality we had hoped to receive.”",
+        "author": "Jim Stoeltzingh "
       }
     ]
   }
