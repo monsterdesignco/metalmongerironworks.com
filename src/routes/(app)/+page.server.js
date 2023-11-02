@@ -1,6 +1,4 @@
-import { Actions } from '@sveltejs/kit';
-
-export const actions: Actions = {
+export const actions= {
     manageFile: async ({ request }) => {
         console.log(await request.formData());
     }
