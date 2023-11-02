@@ -12,7 +12,7 @@
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div class="flex flex-col justify-between">
-            <ul class="list-disc list-inside font-heading text-sm pb-4">
+            <ul class="list-disc list-inside font-heading responsive-text pb-4" >
                 {#each firstSection.bullets as li}
                     <li>{li.bullet}</li>
                 {/each}
@@ -45,3 +45,9 @@
       </div>
     </div>
   </div>
+
+  <style>
+    .responsive-text {
+        font-size: clamp(16px, 1.8vw, 24px);
+    }
+</style>

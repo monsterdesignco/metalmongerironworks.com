@@ -12,13 +12,13 @@
         </div>
         <div class="grid gap-6 mt-12 lg:mt-14 lg:gap-12 md:grid-cols-3">
             {#each cards as card}
-            <div class="flex mb-2 md:flex-col md:mb-0">
-                <img class="w-16 mx-auto pb-2" src={card.icon} alt={card.title}/>
-                <div>
-                    <h3 class="text-xl font-heading font-bold md:mt-4 mb-2.5 text-white text-center">{card.title}</h3>
-                    <p class="text-white text-center">{card.content}</p>
+                <div class="flex mb-2 md:flex-col md:mb-0">
+                    <img class="w-16 mx-auto pb-2" src={card.icon} alt={card.title}/>
+                    <div>
+                        <h3 class="text-xl font-heading font-bold md:mt-4 mb-2.5 text-white text-center">{card.title}</h3>
+                        <p class="text-white text-center">{card.content}</p>
+                    </div>
                 </div>
-            </div>
             {/each}
         </div>
     </div>
