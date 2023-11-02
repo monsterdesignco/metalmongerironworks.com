@@ -1,4 +1,4 @@
-import type { Actions } from '@sveltejs/kit';
+import { Actions } from '@sveltejs/kit';
 
 export const actions: Actions = {
     manageFile: async ({ request }) => {
