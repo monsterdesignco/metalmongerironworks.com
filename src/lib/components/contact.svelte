@@ -5,7 +5,7 @@
     export let cards
 </script>
 
-<section class="bg-white dark:bg-gray-900">
+<section id="contact" class="bg-white dark:bg-gray-900">
     <div class="bg-no-repeat bg-cover bg-center bg-gray-700" style="background-image: url({image})">
         <div class="px-4 lg:pt-24 pt-24 pb-72 lg:pb-80 mx-auto max-w-screen-sm text-center lg:px-6 ">
             <h2 class="mb-4 text-4xl tracking-tight font-bold font-heading text-white">{title}</h2>
