@@ -5,7 +5,7 @@
     export let content = "Content. Replace me!"
 </script>
 
-<section class="bg-gray-900 bg-cover" style="background-image: url({image})">
+<section id="about" class="bg-gray-900 bg-cover" style="background-image: url({image})">
     <div class="py-20 px-6 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
 
         <div class="flex">
