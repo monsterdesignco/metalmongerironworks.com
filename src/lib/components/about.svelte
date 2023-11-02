@@ -15,10 +15,10 @@
                 <h2 class="text-4xl text-right font-heading text-white">{title}&nbsp;<span class="text-primary-500">{titleFancy}</span></h2>
                 <p class="text-white text-right py-5">{content}</p>
                 <div class="flex justify-end">
-                    <a href="">
+                    <a href="/">
                         <img class="max-w-[32px]" src="https://res.cloudinary.com/df9zmnqsz/image/upload/v1698711062/Metal%20Monger%20Iron%20Works/l3qmzifszcssh3hclsoj.png" alt="facebook">
                     </a>
-                    <a href="" class="pl-3">
+                    <a href="/" class="pl-3">
                         <img class="max-w-[32px]" src="https://res.cloudinary.com/df9zmnqsz/image/upload/v1698711062/Metal%20Monger%20Iron%20Works/z5rjpkxvvj3z9nmd59t4.png" alt="instagram">
                     </a>
                 </div>
