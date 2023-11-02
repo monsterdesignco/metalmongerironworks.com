@@ -1,5 +1,4 @@
 <script>
-    import logo from '$lib/assets/images/about-logo.png';
     export let image = 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-content-1.png';
     export let title = 'A little about';
     export let titleFancy= 'Dan Walter';
