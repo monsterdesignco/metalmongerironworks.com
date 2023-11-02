@@ -12,16 +12,17 @@
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div class="flex flex-col justify-between">
-            <ul class="list-disc list-inside font-heading text-xl pb-4">
+            <ul class="list-disc list-inside font-heading text-sm pb-4">
                 {#each firstSection.bullets as li}
                     <li>{li.bullet}</li>
                 {/each}
             </ul>
-            <img class="w-full h-full rounded-lg object-cover" src={firstSection.photos[0].photo} />
+              <img class="w-full rounded-lg object-cover aspect-square" src={firstSection.photos[0].photo} alt="src={firstSection.photos[0].title}" />
+
           </div>
-          <div class="flex flex-col justify-between">
-            <img class="w-full h-full rounded-lg object-cover mb-4" src={firstSection.photos[1].photo} />
-            <img class="w-full h-full rounded-lg object-cover" src={firstSection.photos[2].photo}/>
+          <div class="flex flex-col justify-end">
+            <img class="w-full  rounded-lg object-cover mb-4 aspect-3/4" src={firstSection.photos[1].photo} alt="src={firstSection.photos[1].title}"/>
+            <img class="w-full rounded-lg object-cover aspect-square" src={firstSection.photos[2].photo} alt="src={firstSection.photos[2].title}"/>
           </div>
         </div>
       </div>
@@ -29,10 +30,12 @@
       <div class="flex flex-col">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
           <div class="flex flex-col justify-between">
-            <img class="w-full h-full rounded-lg object-cover" src={secondSection.photos[0].photo} />
-            <img class="w-full h-full rounded-lg object-cover" src={secondSection.photos[1].photo} />
+            <img class="w-full rounded-lg object-cover aspect-square mb-4 " src={secondSection.photos[0].photo} alt={secondSection.photos[0].text}/>
+            <img class="w-full rounded-lg object-cover aspect-square aspect-3/4" src={secondSection.photos[1].photo} alt={secondSection.photos[1].text}/>
           </div>
-          <img class="w-full h-full rounded-lg object-cover" src={secondSection.photos[2].photo}  />
+          <div class="flex items-center">
+            <img class="w-full rounded-lg object-cover aspect-square" src={secondSection.photos[2].photo}  alt={secondSection.photos[2].text}/>
+          </div>
         </div>
         <div class="text-left">
           <div class="text-orange-400 text-5xl font-heading font-bold font-varna leading-[72px] mb-4">Elevate Your Space</div>

@@ -11,6 +11,9 @@ const config = {
         sans: ['DIN', 'sans-serif'],
         heading: ['Varna', 'sans-serif']
       },
+      aspectRatio: {
+        '3/4': '3 / 4'
+      },
       colors: {
         // flowbite-svelte
         primary: {
