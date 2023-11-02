@@ -7,8 +7,8 @@
       <!-- Left Column -->
       <div class="flex flex-col justify-between">
         <div class="text-center mb-6">
-          <div class="text-orange-400 text-5xl font-heading font-bold font-varna leading-[72px] mb-4">Built to Last</div>
-          <div class="text-stone-500 text-lg font-normal font-din leading-relaxed">With our custom iron creations, you can transform your living space into a work of art. From intricate railings that adorn your staircase to elegant gates that welcome you home, every piece we create is tailored to your unique vision and the character of your residence.</div>
+          <div class="text-orange-400 text-5xl text-left font-heading font-bold font-varna leading-[72px] mb-4">Built to Last</div>
+          <div class="text-stone-500 text-lg text-left font-normal font-din leading-relaxed">With our custom iron creations, you can transform your living space into a work of art. From intricate railings that adorn your staircase to elegant gates that welcome you home, every piece we create is tailored to your unique vision and the character of your residence.</div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div class="flex flex-col justify-between">
@@ -31,7 +31,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
           <div class="flex flex-col justify-between">
             <img class="w-full rounded-lg object-cover aspect-square mb-4 " src={secondSection.photos[0].photo} alt={secondSection.photos[0].text}/>
-            <img class="w-full rounded-lg object-cover aspect-square aspect-3/4" src={secondSection.photos[1].photo} alt={secondSection.photos[1].text}/>
+            <img class="w-full rounded-lg object-cover aspect-3/4" src={secondSection.photos[1].photo} alt={secondSection.photos[1].text}/>
           </div>
           <div class="flex items-center">
             <img class="w-full rounded-lg object-cover aspect-square" src={secondSection.photos[2].photo}  alt={secondSection.photos[2].text}/>

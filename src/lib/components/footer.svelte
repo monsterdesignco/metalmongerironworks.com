@@ -1,12 +1,16 @@
+<script>
+    import content from '$lib/content/footer.json'
+</script>
 <footer class="bg-black">
     <div class="p-4 py-6 mx-auto max-w-screen-xl md:p-8 lg:p-10">
-        <div class="justify-between w-fullmt-6  rounded-lg lg:mt-3 sm:flex bg-black">
-            <p class="text-white">hello</p>
+        <div class="flex justify-center items-center w-full mt-6  rounded-lg lg:mt-3 sm:flex bg-black">
+            <img src={content.logo} alt="" class="w-20"/>
             <div class="flex">
-                <p class="text-white">hello</p>
-                <p class="text-white">hello</p>
-                <p class="text-white">hello</p>
+                {#each content.navLinks as link}
+                    <a href={link.link} class="text-white hover:underline mx-4 font-bold uppercase">{link.text}</a>
+                {/each}
             </div>
+            <div>
             <form action="#" class="flex mt-4 ml-0  sm:mt-0 sm:ml-5">
                 <div class="relative w-full">
                     <label for="email-subscribe"
@@ -27,12 +31,17 @@
                     class="py-3 px-5 text-sm text-center text-white rounded-r-lg border cursor-pointer bg-primary-600 border-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Subscribe</button>
             </form>
         </div>
+        </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
-        <div class="flex flex-col justify-between items-center lg:flex-row">
-            <p class="text-white">hello</p>
-            <p class="text-white">hello</p>
-            <span class="block mb-4 text-sm text-gray-500 dark:text-gray-400 lg:mb-0">© 2023 <a href="#"
-                    class="hover:underline">Flowbite™</a>. All Rights Reserved.
+        <div class="flex flex-col items-end justify-center lg:flex-row">
+            <div class="ml-auto">
+                <p class="text-white">social</p>
+            </div>
+            <div class="flex items-center flex-col justify-center text-gray-500 text-sm">
+                <img src={content.agencyInfo.logo} class="w-32 pb-4" alt="">
+                <p>{content.agencyInfo.description}</p>
+            </div>
+            <span class="block mb-4 text-sm text-gray-500 dark:text-gray-400 lg:mb-0 mr-auto">© 2023 {content.agencyInfo.copyright}
             </span>
 
         </div>
