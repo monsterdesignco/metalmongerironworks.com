@@ -3,4 +3,4 @@
     import Hero from '$lib/components/hero.svelte'
 </script>
 
-<Hero (...content)/>
+<Hero {...content}/>
