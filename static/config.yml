@@ -187,7 +187,7 @@ collections:
                   - {label: Author, name: author, widget: string}
       - label: "Gallery"
         name: "gallery"
-        file: "src/routes/gallery/+page.md"
+        file: "src/lib/content/gallery.json"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: text}
