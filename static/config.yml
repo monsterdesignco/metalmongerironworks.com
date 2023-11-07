@@ -189,23 +189,11 @@ collections:
         name: "gallery"
         file: "src/routes/gallery/+page.md"
         fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "gallery"}
           - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: text}
           - label: "Photos"
             name: "photos"
             widget: list
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Photo, name: photo, widget: image}
-  - label: "Blog"
-    name: "blog"
-    folder: "src/routes/blog"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: Title, name: title, widget: string}
-      - {label: Date, name: date, widget: datetime}
-      - {label: Body, name: body, widget: markdown}
-      - {label: Image, name: image, widget: image}
-      - {label: Tags, name: tags, widget: list}
