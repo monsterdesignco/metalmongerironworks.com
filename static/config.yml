@@ -195,5 +195,5 @@ collections:
             name: "photos"
             widget: list
             fields:
-              - {label: Title, name: title, widget: string}
+              - {label: Title, name: title, widget: string, required: false}
               - {label: Photo, name: photo, widget: image}
