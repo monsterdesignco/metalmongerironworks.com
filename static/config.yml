@@ -191,8 +191,9 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: text}
-          - label: "Photos"
-            name: "photos"
+          - {label: Image, name: image, widget: image}
+          - label: "Images"
+            name: "images"
             widget: list
             fields:
               - {label: Title, name: title, widget: string, required: false}
