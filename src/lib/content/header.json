@@ -3,11 +3,11 @@
   "navLinks": [
     {
       "text": "Services",
-      "link": "#services"
+      "link": "/#services"
     },
     {
       "text": "About",
-      "link": "#"
+      "link": "/#about"
     },
     {
       "text": "Gallery",
@@ -15,11 +15,11 @@
     },
     {
       "text": "Contact",
-      "link": "#contact"
+      "link": "/#contact"
     }
   ],
   "button": {
     "text": "Get Started",
-    "link": "#contact"
+    "link": "/#contact"
   }
 }

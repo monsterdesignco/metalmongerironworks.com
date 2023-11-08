@@ -40,18 +40,18 @@
         </form>
         <div class="space-y-8 text-center md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
             {#each cards as card}
-                <div>
+                <div class="flex flex-col items-center"> <!-- This ensures that the card content is flexed and centered vertically and horizontally -->
                     <div class="flex justify-center items-center mx-auto mb-4 w-16 h-16 rounded-lg dark:bg-gray-800 lg:h-16 lg:w-16">
                         <img src={card.icon} alt={card.title} class="w-12 h-12 lg:w-12 lg:h-12"/>
                     </div>
                     <p class="mb-2 text-xl font-heading dark:text-white">{card.title}</p>
                     <p class="mb-3 text-gray-500 dark:text-gray-400">{card.content}</p>
                     {#if card.link}
-                        <a href={card.link.link} class=" font-heading font-bold text-primary-600 dark:text-primary-500 hover:underline">{card.link.text}</a>
+                        <a href={card.link.link} class="font-heading font-bold text-primary-600 dark:text-primary-500 hover:underline">{card.link.text}</a>
                     {/if}
                 </div>
             {/each}
-
         </div>
+        
     </div>
 </section>  

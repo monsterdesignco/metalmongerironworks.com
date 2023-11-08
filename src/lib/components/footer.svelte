@@ -3,11 +3,11 @@
 </script>
 <footer class="bg-black">
     <div class="p-4 py-6 mx-auto max-w-screen-xl md:p-8 lg:p-10">
-        <div class="flex justify-center items-center w-full mt-6  rounded-lg lg:mt-3 sm:flex bg-black">
-            <img src={content.logo} alt="" class="w-20"/>
-            <div class="flex">
+        <div class="flex-col justify-center items-center w-full mt-6 rounded-lg  lg:flex-row lg:justify-between lg:mt-3 sm:flex bg-black">
+            <img src={content.logo} alt="" class="w-20 mx-auto pb-8 s lg:mx-0"/>
+            <div class="flex flex-col justify-center md:flex-row pb-4 lg:align-self-center">
                 {#each content.navLinks as link}
-                    <a href={link.link} class="text-white hover:underline mx-4 font-bold uppercase">{link.text}</a>
+                    <a href={link.link} class="text-white hover:underline mx-4 font-bold uppercase text-center">{link.text}</a>
                 {/each}
             </div>
             <div>
@@ -33,15 +33,20 @@
         </div>
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
-        <div class="flex flex-col items-end justify-center lg:flex-row">
-            <div class="ml-auto">
-                <p class="text-white">social</p>
+        <div class="flex flex-col items-center justify-center  md:items-end lg:flex-row lg:justify-between" >
+            <div class="flex justify-center pb-4 md:ml-auto lg:ml-0">
+                <a href="/">
+                    <img class="max-w-[24px]" src="https://res.cloudinary.com/df9zmnqsz/image/upload/v1698711062/Metal%20Monger%20Iron%20Works/l3qmzifszcssh3hclsoj.png" alt="facebook">
+                </a>
+                <a href="/" class="pl-3">
+                    <img class="max-w-[24px]" src="https://res.cloudinary.com/df9zmnqsz/image/upload/v1698711062/Metal%20Monger%20Iron%20Works/z5rjpkxvvj3z9nmd59t4.png" alt="instagram">
+                </a>
             </div>
-            <div class="flex items-center flex-col justify-center text-gray-500 text-sm">
-                <img src={content.agencyInfo.logo} class="w-32 pb-4" alt="">
-                <p>{content.agencyInfo.description}</p>
+            <div class="flex items-center flex-col justify-center text-gray-500 text-sm text-center pb-6 lg:align-self-cente">
+                <img src={content.agencyInfo.logo} class="w-32 pb-2" alt="">
+                <a href={content.agencyInfo.link}>{content.agencyInfo.description}</a>
             </div>
-            <span class="block mb-4 text-sm text-gray-500 dark:text-gray-400 lg:mb-0 mr-auto">© 2023 {content.agencyInfo.copyright}
+            <span class="block mb-4 text-center text-sm text-gray-500 dark:text-gray-400 lg:mb-0 mr-auto lg:mr-0">© 2023 {content.agencyInfo.copyright}
             </span>
 
         </div>
