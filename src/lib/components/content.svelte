@@ -5,7 +5,7 @@
 
 </script>
 
-<section class="bg-gray-900 bg-cover" style="background-image: url({image})">
+<section id="services" class="bg-gray-900 bg-cover" style="background-image: url({image})">
     <div class="py-20 px-8 mx-auto max-w-screen-xl lg:py-16 lg:px-12">
         <div class="text-center text-gray-900">
             <h2 class="mb-4 text-4xl font-heading font-bold text-white lg:text-5xl dark:text-white">{title}</h2>         
