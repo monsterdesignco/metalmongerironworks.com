@@ -1,11 +1,11 @@
 <script>
   import content from '$lib/content/home.json'
-  import {HomeHero, Content, About, Gallery, Contact, Testimonials} from '$lib/components'
+  import {HomeHero, Services, About, Contact, Testimonials, Mosaic} from '$lib/components'
 </script>
 
 <HomeHero {...content.hero} />
-<Content {...content.content} />
+<Services {...content.content} />
 <About {...content.about} />
-<Gallery {...content.gallery} />
+<Mosaic {...content.gallery} />
 <Contact {...content.contact} />
 <Testimonials {...content.testimonials} />

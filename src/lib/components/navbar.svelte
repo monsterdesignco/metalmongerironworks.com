@@ -13,7 +13,7 @@
       </div>  
       <NavUl class="order-1 ml-auto uppercas !bg-black" >
           {#each header.navLinks as link}
-            <NavLi  class="text-white font-semibold text-base" href={link.link}>{link.text}</NavLi>
+            <NavLi class="text-white font-semibold uppercase text-base" href={link.link}>{link.text}</NavLi>
           {/each}
 
       </NavUl>
