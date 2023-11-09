@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Crafting Elegance in Iron",
-    "image": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688145/Hero_oogjmo.png",
+    "image": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1699561710/123_1_2_iujg5c.png",
     "content": "At Metal Monger, we transform the ordinary into the extraordinary, one piece of iron at a time. Let's collaborate and turn your vision into reality.",
     "button": {
       "text": "Get Started",
@@ -12,17 +12,17 @@
     "title": "The Metal Monger Difference",
     "cards": [
       {
-        "icon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688456/fire-icon_co4a3o.png",
+        "icon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1699562335/Icon_Shapes_uyqzih.png",
         "title": "Custom Solutions",
         "content": "We specialize in fashioning one-of-a-kind ironwork creations that are as unique as your imagination. Our expertise lies in meticulously handcrafting custom pieces that reflect your individual style and preferences."
       },
       {
-        "icon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688377/rocket-icon_uqtxrw.png",
+        "icon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1699562335/Icon_Shapes_1_o0161h.png",
         "title": "Efficient Excellence",
         "content": "Efficiency is at the core of our operations. At Metal Monger, we take pride in our ability to deliver high-quality ironwork with unmatched precision and in a timely manner."
       },
       {
-        "icon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688378/pin-icon_sq0y6o.png",
+        "icon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1699562335/Icon_Shapes_2_cctmco.png",
         "title": "Locally Owned & Operated ",
         "content": "When you choose us, you're supporting a business that is committed to serving and enriching the local community. We take pride in being your trusted California ironwork artisans."
       }
