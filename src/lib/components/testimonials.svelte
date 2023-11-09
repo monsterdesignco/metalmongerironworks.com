@@ -15,7 +15,7 @@
       <div class=" flex flex-col justify-center items-center">
         <img src="https://res.cloudinary.com/df9zmnqsz/image/upload/v1698947616/quote-icon_xlimt7.png" alt="quoteation icon" class="w-20 pb-5">
         <div class="text-lg mb-4 max-w-xl text-center">{testimonial.testimonial}</div>
-        <div class="text-lg mb-4 max-w-xl text-center font-heading">{testimonial.author}</div>
+        <div class="text-lg mb-4 max-w-xl text-center text-primary-400 font-heading">{testimonial.author}</div>
       </div>
     {/each}
   </Carousel>

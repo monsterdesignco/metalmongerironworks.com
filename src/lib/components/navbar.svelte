@@ -8,7 +8,7 @@
     <img src={header.logo} class="mr-3 h-16 lg:h-24" alt="Flowbite Logo" />
   </NavBrand>
       <div class="flex md:order-2 pl-6">
-          <Button href={header.button.link} size="lg"  class="uppercase font-semibold text-base">{header.button.text}</Button>
+          <Button href={header.button.link} size="lg"  class="uppercase font-semibold text-base bg-primary-500 hover:bg-primary-600">{header.button.text}</Button>
           <NavHamburger />
       </div>  
       <NavUl class="order-1 ml-auto uppercae" classUl="bg-black border-none" >
