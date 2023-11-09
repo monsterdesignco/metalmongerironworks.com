@@ -4,44 +4,33 @@
 
 <footer class="bg-black">
   <div class="p-4 py-6 mx-auto max-w-screen-xl md:p-8 lg:p-10">
-    <div
-      class="flex-col justify-center items-center w-full mt-6 rounded-lg lg:flex-row lg:justify-between lg:mt-3 sm:flex bg-black"
-    >
-      <img src={content.logo} alt="" class="w-20 mx-auto pb-8 s lg:mx-0" />
-      <div
-        class="flex flex-col justify-center md:flex-row pb-4 lg:align-self-center"
-      >
+    <div class="grid grid-cols-1 lg:grid-cols-4">
+      <img src={content.logo} alt="" class="w-20 mx-auto pb-8 lg:pb-0 lg:mx-0" />
+      <div class="flex flex-col pb-6 md:flex-row md:justify-center lg:items-center lg:pb-0 lg:col-span-2 whitespace-nowrap">
         {#each content.navLinks as link}
           <a
             href={link.link}
-            class="text-gray-400 hover:underline mx-4 font-bold uppercase text-center"
+            class="text-gray-400 hover:underline mx-2 font-bold uppercase text-center"
             >{link.text}</a
           >
         {/each}
       </div>
-      <div>
-        <form action="#" class="flex mt-4 ml-0 sm:mt-0 sm:ml-5">
+      <div class="flex justify-center lg:flex-col">
+        <form action="#" class="flex mt-4 !ml-0 w-full max-w-lg sm:mt-0 sm:ml-5">
           <div class="relative w-full">
             <label
               for="email-subscribe"
               class="hidden mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-              >Email address</label
-            >
+              >Email address</label>
             <div
-              class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none"
-            >
+              class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
               <svg
                 class="w-5 h-5 text-gray-500 dark:text-gray-400"
                 fill="currentColor"
                 viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
-                />
-                <path
-                  d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
-                />
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
+                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
               </svg>
             </div>
             <input
@@ -61,24 +50,8 @@
       </div>
     </div>
     <hr class="my-6 border-gray-500 sm:mx-auto dark:border-gray-700 lg:my-8" />
-    <!-- <div class="flex flex-col items-center justify-center relative md:items-end lg:flex-row lg:justify-between" >
-            <div class="flex justify-center pb-4 md:ml-auto lg:ml-0">
-                <a href="/">
-                    <img class="max-w-[24px]" src="https://res.cloudinary.com/df9zmnqsz/image/upload/v1698711062/Metal%20Monger%20Iron%20Works/l3qmzifszcssh3hclsoj.png" alt="facebook">
-                </a>
-                <a href="/" class="pl-3">
-                    <img class="max-w-[24px]" src="https://res.cloudinary.com/df9zmnqsz/image/upload/v1698711062/Metal%20Monger%20Iron%20Works/z5rjpkxvvj3z9nmd59t4.png" alt="instagram">
-                </a>
-            </div>
-            <div class="flex items-center flex-col mx-auto absolute inset-x-0  text-gray-500 text-sm text-center pb-6 lg:align-self-cente">
-                <img src={content.agencyInfo.logo} class="w-32 pb-2" alt="">
-                <a href={content.agencyInfo.link}>{content.agencyInfo.description}</a>
-            </div>
-            <span class="block mb-4 text-center text-sm text-gray-500 dark:text-gray-400 lg:mb-0 mr-auto lg:mr-0">© 2023 {content.agencyInfo.copyright}
-            </span>
-        </div> -->
-    <div class="grid grid-cols-3 text-gray-500">
-      <div class="flex">
+    <div class="grid grid-cols-1 md:grid-cols-3 text-gray-500">
+      <div class="flex justify-center md:justify-normal pb-4">
         <a href="/">
           <img
             class="max-w-[24px]"
@@ -94,14 +67,11 @@
           />
         </a>
       </div>
-      <div class="flex flex-col items-center text-md">
+      <div class="flex flex-col items-center text-md pb-4">
         <img src={content.agencyInfo.logo} class="max-w-[120px] pb-2" alt="" />
         <a href={content.agencyInfo.link}>{content.agencyInfo.description}</a>
       </div>
-      <span
-        class="text-right"
-        >© 2023 {content.agencyInfo.copyright}
-      </span>
+      <span class="text-center md:text-right">© 2023 {content.agencyInfo.copyright} </span>
     </div>
   </div>
 </footer>

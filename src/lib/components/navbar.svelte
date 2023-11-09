@@ -2,7 +2,7 @@
     import header from '$lib/content/header.json';
     import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Button, Input } from 'flowbite-svelte';
 </script>
-  
+
 <Navbar class="bg-black py-6 !px-8 md:px-20">
   <NavBrand href="/" >
     <img src={header.logo} class="mr-3 h-16 lg:h-24" alt="Flowbite Logo" />
@@ -11,10 +11,9 @@
           <Button href={header.button.link} size="lg"  class="uppercase font-semibold text-base">{header.button.text}</Button>
           <NavHamburger />
       </div>  
-      <NavUl class="order-1 ml-auto uppercas !bg-black" >
+      <NavUl class="order-1 ml-auto uppercae" classUl="bg-black border-none" >
           {#each header.navLinks as link}
-            <NavLi class="text-white font-semibold uppercase text-base" href={link.link}>{link.text}</NavLi>
+            <NavLi class="text-white font-semibold uppercase text-base hover:bg-gray-500 " href={link.link}>{link.text}</NavLi>
           {/each}
-
       </NavUl>
 </Navbar>
