@@ -36,14 +36,14 @@
             <input
               type="email"
               id="email-subscribe"
-              class="block p-3 pl-10 w-full text-sm text-gray-900 bg-white rounded-l-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+              class="block p-3 pl-10 w-full text-sm text-gray-900 bg-white rounded-l-lg border border-gray-300 focus:ring-primary-400 focus:border-primary-400 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-400 dark:focus:border-primary-400"
               placeholder="Your email"
               required
             />
           </div>
           <button
             type="submit"
-            class="py-3 px-5 text-sm text-center text-white rounded-r-lg border cursor-pointer bg-primary-500 border-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+            class="py-3 px-5 text-sm text-center text-white rounded-r-lg border cursor-pointer bg-primary-400 border-primary-400 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
             >Subscribe</button
           >
         </form>

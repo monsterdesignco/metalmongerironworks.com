@@ -12,7 +12,7 @@
             <div class="w-1/2 hidden md:block"></div>
             <div class="md:w-1/2 flex-row flex-start gap-3">
                 <img src="https://res.cloudinary.com/df9zmnqsz/image/upload/v1698711062/Metal%20Monger%20Iron%20Works/g2oosplh4m9wtkm1iufq.png" alt="" class="ml-auto w-16 pb-8">
-                <h2 class="text-4xl text-right font-heading text-white">{title}&nbsp;<span class="text-primary-500">{titleFancy}</span></h2>
+                <h2 class="text-4xl text-right font-heading text-white">{title}&nbsp;<span class="text-primary-400">{titleFancy}</span></h2>
                 <p class="text-white text-right py-5">{content}</p>
                 <div class="flex justify-end">
                     <a href="/">

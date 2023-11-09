@@ -7,7 +7,7 @@
       <!-- Left Column -->
       <div class="flex flex-col justify-between">
         <div class="text-center mb-6">
-          <div class="text-primary-500 text-5xl text-left font-heading font-bold font-varna leading-[72px] mb-4">Built to Last</div>
+          <div class="text-primary-400 text-5xl text-left font-heading font-bold font-varna leading-[72px] mb-4">Built to Last</div>
           <div class="text-stone-500 text-lg text-left font-normal font-din leading-relaxed">With our custom iron creations, you can transform your living space into a work of art. From intricate railings that adorn your staircase to elegant gates that welcome you home, every piece we create is tailored to your unique vision and the character of your residence.</div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -37,9 +37,9 @@
           </div>
         </div>
         <div class="text-left">
-          <div class="text-primary-500 text-5xl font-heading font-bold font-varna leading-[72px] mb-4">Elevate Your Space</div>
+          <div class="text-primary-400 text-5xl font-heading font-bold font-varna leading-[72px] mb-4">Elevate Your Space</div>
           <div class="text-stone-500 text-lg font-normal font-din leading-relaxed mb-4">See more of our work.</div>
-          <button class="inline-flex uppercase items-center py-3 px-5 font-semibold text-center text-white rounded-lg bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:outline-none focus:ring-primary-900 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">PROJECT GALLERY</button>
+          <button class="inline-flex uppercase items-center py-3 px-5 font-semibold text-center text-white rounded-lg bg-primary-400 hover:bg-primary-600 focus:ring-4 focus:outline-none focus:ring-primary-900 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">PROJECT GALLERY</button>
         </div>
       </div>
     </div>
