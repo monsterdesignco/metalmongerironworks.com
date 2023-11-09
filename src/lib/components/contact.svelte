@@ -47,7 +47,7 @@
                     <p class="mb-2 text-xl font-heading dark:text-white">{card.title}</p>
                     <p class="mb-3 text-gray-500 dark:text-gray-400">{card.content}</p>
                     {#if card.link}
-                        <a href={card.link.link} class="font-heading font-bold text-primary-600 dark:text-primary-500 hover:underline">{card.link.text}</a>
+                        <a href={card.link.link} class="font-heading font-bold text-primary-500 hover:underline">{card.link.text}</a>
                     {/if}
                 </div>
             {/each}
