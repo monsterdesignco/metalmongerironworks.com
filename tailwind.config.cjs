@@ -1,7 +1,10 @@
 const config = {
   content: ['./src/**/*.{html,js,svelte,ts,md}', './node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}'],
 
-  plugins: [require('flowbite/plugin')],
+  plugins: [
+    require('flowbite/plugin'),
+    require('@tailwindcss/typography')
+  ],
 
   darkMode: 'class',
 

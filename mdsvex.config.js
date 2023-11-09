@@ -13,10 +13,10 @@ const config = defineConfig({
   remarkPlugins: [],
   rehypePlugins: [],
 
-  // layout: {
-  //   home: path.join(dirname, "./src/lib/layouts/home-layout.svelte"),
-  //   gallery: path.join(dirname, "./src/lib/layouts/gallery-layout.svelte"),
-  // },
+ //layout: {
+   //page: path.join(dirname, "./src/lib/layouts/page.svelte"),
+   //gallery: path.join(dirname, "./src/lib/layouts/gallery-layout.svelte"),
+ //},
 });
 
 export default config;
