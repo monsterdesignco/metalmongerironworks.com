@@ -37,7 +37,7 @@
           </div>
         </div>
         <div class="text-left">
-          <div class="text-primary-400 text-5xl font-heading font-bold font-varna leading-[72px] mb-4">Elevate Your Space</div>
+          <div class="text-primary-500 text-5xl font-heading font-bold font-varna leading-[72px] mb-4">Elevate Your Space</div>
           <div class="text-stone-500 text-lg font-normal font-din leading-relaxed mb-4">See more of our work.</div>
           <button class="inline-flex uppercase items-center py-3 px-5 font-semibold text-center text-white rounded-lg bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:outline-none focus:ring-primary-900 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">PROJECT GALLERY</button>
         </div>

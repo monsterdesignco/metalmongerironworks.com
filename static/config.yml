@@ -198,3 +198,11 @@ collections:
             fields:
               - {label: Title, name: title, widget: string, required: false}
               - {label: Image, name: image, widget: image}
+      - label: "Privacy Policy"
+        name: "privacy-policy"
+        file: "src/lib/content/privacy-policy.json"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: text}
+          - {label: Image, name: image, widget: image}
+          - {label: Content, name: content, widget: markdown}
