@@ -5,15 +5,17 @@
     export let cards
 </script>
 
-<section id="contact" class="bg-white dark:bg-gray-900">
-    <div class="bg-no-repeat bg-cover bg-center bg-gray-700" style="background-image: url({image})">
+<section id="contact" class="bg-white mt-20 dark:bg-gray-900 relative">
+    <div class="z-10 style h-64 w-2/3 absolute -top-14 left-0" style="background-image: url('https://res.cloudinary.com/df9zmnqsz/image/upload/v1699574127/rd05n6utdxqsz5snh8rz.png')"></div>
+    <div class="bg-no-repeat bg-cover bg-center bg-gray-700 relative" style="background-image: url({image})">
         <div class="px-4 lg:pt-24 pt-24 pb-72 lg:pb-80 mx-auto max-w-screen-sm text-center lg:px-6 ">
-            <h2 class="mb-4 text-4xl tracking-tight font-bold font-heading text-white">{title}</h2>
-            <p class="mb-16 font-light text-white sm:text-xl">{subtitle}</p>
-        </div> 
+            <h2 class="mb-4 text-4xl tracking-tight font-bold font-heading relative text-white z-20">{title}</h2>
+            <p class="mb-16 font-light text-white text-base relative z-20">{subtitle}</p>
+        </div>
+        <div class="absolute bg-contain bg-repeat-x bottom-0 h-[12px] w-full" style="background-image: url('https://res.cloudinary.com/df9zmnqsz/image/upload/v1699574820/mnwuvofbryskwpbcafqb.png')"></div>
     </div>
-    <div class="py-16 px-4 mx-auto -mt-96 max-w-screen-xl sm:py-24 lg:px-6 ">
-        <form data-netlify="true" netlify-honeypot="bot-field" name="contact" method="POST" class="grid grid-cols-1 gap-8 p-6 mx-auto mb-16 max-w-screen-md bg-white rounded-lg border border-gray-200 shadow-sm lg:mb-28 dark:bg-gray-800 dark:border-gray-700 sm:grid-cols-2">
+    <div class=" py-16 px-4 mx-auto relative -mt-96 max-w-screen-xl sm:py-24 lg:px-6 ">
+        <form data-netlify="true" netlify-honeypot="bot-field" name="contact" method="POST" class="z-50 grid grid-cols-1 gap-8 p-6 mx-auto mb-16 max-w-screen-md bg-white rounded-lg border border-gray-200 shadow-sm lg:mb-28 dark:bg-gray-800 dark:border-gray-700 sm:grid-cols-2">
             <input type="hidden" name="form-name" value="contact" />
             <div>
                 <label for="first-name" name="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">First Name</label>
@@ -34,7 +36,7 @@
             <div class="sm:col-span-2">
                 <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
                 <textarea name="message" id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-400 focus:border-primary-400 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-400 dark:focus:border-primary-400" placeholder="Leave a comment..."></textarea>
-                <p class="mt-4 text-sm text-gray-500">By submitting this form you agree to our <a href="/" class="text-primary-600 hover:underline dark:text-primary-400">terms and conditions</a> and our <a href="/" class="text-primary-600 hover:underline dark:text-primary-400">privacy policy</a> which explains how we may collect, use and disclose your personal information including to third parties.</p>
+                <p class="mt-4 text-sm text-gray-500">By submitting this form you agree to our <a href="/" class="text-primary-600 hover:underline dark:text-primary-400">terms and conditions</a> and our <a href="/privacy-policy" class="text-primary-600 hover:underline dark:text-primary-400">privacy policy</a> which explains how we may collect, use and disclose your personal information including to third parties.</p>
             </div>
             <button type="submit" class="py-3 px-5 text-sm font-medium uppercase text-center text-white rounded-lg bg-primary-400 sm:w-fit hover:bg-primary-600 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
         </form>
@@ -54,4 +56,5 @@
         </div>
         
     </div>
+
 </section>  

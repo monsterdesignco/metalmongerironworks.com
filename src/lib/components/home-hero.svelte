@@ -18,5 +18,5 @@
             </a>
         </div>
     </div>
-    <!-- <div class=" style h-64 w-2/3 absolute z-50 -bottom-14 right-0" style="background-image: url('{dots}')"></div> -->
+    <div class=" style h-64 w-2/3 absolute z-50 -bottom-14 right-0" style="background-image: url('https://res.cloudinary.com/df9zmnqsz/image/upload/v1699573329/k7lmh3vcqjkjqy2f6m5g.png')"></div>
 </section>

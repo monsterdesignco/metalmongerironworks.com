@@ -6,11 +6,11 @@
 </script>
 
 <section id="services" class="bg-gray-900 bg-cover" style="background-image: url({image})">
-    <div class="py-20 px-8 mx-auto max-w-screen-xl lg:py-16 lg:px-12">
+    <div class="py-20 px-8 mx-auto max-w-screen-xl lg:py-16 lg:px-12 !pt-28">
         <div class="text-center text-gray-900">
             <h2 class="mb-4 text-4xl font-heading font-bold text-white lg:text-5xl dark:text-white">{title}</h2>         
         </div>
-        <div class="grid gap-6 mt-12 lg:mt-14 lg:gap-12 md:grid-cols-3">
+        <div class="grid gap-6 mt-12 md:grid-cols-3 lg:mt-14 lg:gap-12" >
             {#each cards as card}
                 <div class="flex-col mb-2 md:mb-0">
                     <img class="w-16 mx-auto pb-2" src={card.icon} alt={card.title}/>
