@@ -1,5 +1,5 @@
 <script>
-    import socialLinks from '$lib/content/home.json'
+    import socialLinks from '$lib/content/social.json'
     import SvelteMarkdown from 'svelte-markdown'
     export let image = 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-content-1.png';
     export let title

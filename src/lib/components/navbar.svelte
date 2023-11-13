@@ -9,9 +9,9 @@
   </NavBrand>
       <div class="flex md:order-2 pl-6">
           <Button href={header.button.link} size="lg"  class="uppercase font-semibold text-base bg-primary-400 hover:bg-primary-600">{header.button.text}</Button>
-          <NavHamburger />
+          <NavHamburger class="hover:bg-black text-white"/>
       </div>  
-      <NavUl class="order-1 ml-auto uppercae" classUl="bg-black border-none" >
+      <NavUl class="order-1 ml-auto uppercae" classUl="bg-black border-none p-0" >
           {#each header.navLinks as link}
             <NavLi class="text-white font-semibold uppercase text-base hover:bg-gray-500 " href={link.link}>{link.text}</NavLi>
           {/each}

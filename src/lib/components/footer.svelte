@@ -1,5 +1,6 @@
 <script>
   import content from "$lib/content/footer.json";
+  import social from "$lib/content/social.json";
 </script>
 
 <footer class="bg-black">
@@ -17,15 +18,15 @@
       </div>
       <div class="flex justify-center lg:flex-col">
         <form action="#" class="flex mt-4 !ml-0 w-full max-w-lg sm:mt-0 sm:ml-5">
-          <div class="relative w-full">
+          <div class="relative w-full ">
             <label
               for="email-subscribe"
-              class="hidden mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+              class="hidden mb-2 text-sm font-medium text-gray-400"
               >Email address</label>
             <div
-              class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+              class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none ">
               <svg
-                class="w-5 h-5 text-gray-500 dark:text-gray-400"
+                class="w-5 h-5 text-gray-400 dark:text-gray-400"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg">
@@ -36,7 +37,7 @@
             <input
               type="email"
               id="email-subscribe"
-              class="block p-3 pl-10 w-full text-sm text-gray-900 bg-white rounded-l-lg border border-gray-300 focus:ring-primary-400 focus:border-primary-400 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-400 dark:focus:border-primary-400"
+              class="block p-3 pl-10 w-full text-sm text-gray-400 placeholder-gray-400 bg-gray-700 rounded-l-lg border border-gray-600 focus:ring-primary-400 focus:border-primary-400 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-400 dark:focus:border-primary-400"
               placeholder="Your email"
               required
             />
@@ -52,26 +53,34 @@
     <hr class="my-6 border-gray-500 sm:mx-auto dark:border-gray-700 lg:my-8" />
     <div class="grid grid-cols-1 md:grid-cols-3 text-gray-500">
       <div class="flex justify-center md:justify-normal pb-4">
-        <a href="/">
+        <a href={social.facebook}>
           <img
             class="max-w-[24px]"
-            src="https://res.cloudinary.com/df9zmnqsz/image/upload/v1698711062/Metal%20Monger%20Iron%20Works/l3qmzifszcssh3hclsoj.png"
+            src="https://res.cloudinary.com/df9zmnqsz/image/upload/v1699904258/Metal%20Monger%20Iron%20Works/ckgoczweihqx2byrxcij.png"
             alt="facebook"
           />
         </a>
-        <a href="/" class="pl-3">
+        <a href={social.instagram} class="pl-3">
           <img
             class="max-w-[24px]"
-            src="https://res.cloudinary.com/df9zmnqsz/image/upload/v1698711062/Metal%20Monger%20Iron%20Works/z5rjpkxvvj3z9nmd59t4.png"
+            src="https://res.cloudinary.com/df9zmnqsz/image/upload/v1699904258/Metal%20Monger%20Iron%20Works/i0wxxu2xcikqfzqhceom.png"
             alt="instagram"
           />
         </a>
+        <a href={social.linkedin} class="pl-5">
+          <img
+            class="max-w-[24px]"
+            src="https://res.cloudinary.com/df9zmnqsz/image/upload/v1699904258/Metal%20Monger%20Iron%20Works/osmei8nfpeaxpqj9d5tq.png"
+            alt="Linkedin"
+          />
+        </a>
       </div>
-      <div class="flex flex-col items-center text-md pb-4">
-        <img src={content.agencyInfo.logo} class="max-w-[120px] pb-2" alt="" />
-        <a href={content.agencyInfo.link}>{content.agencyInfo.description}</a>
+      <div class="flex flex-col items-center text-sm pb-4">
+        {content.agencyInfo.description}
+        <a href={content.agencyInfo.link}><img src={content.agencyInfo.logo} class="max-w-[120px] pt-1" alt=""/></a>
+
       </div>
-      <span class="text-center md:text-right">© 2023 {content.agencyInfo.copyright} </span>
+      <span class="text-center md:text-right">© 2023 {content.agencyInfo.copyright}</span>
     </div>
   </div>
 </footer>
