@@ -82,7 +82,14 @@ collections:
             widget: "object"
             collapsed: true
             fields:
-              - {label: Title, name: title, widget: string}
+              - label: "Title"
+                name: "title"
+                widget: object
+                collapsed: true
+                fields:
+                  - {label: Title Start, name: title_start, widget: string}
+                  - {label: Title Fancy, name: title_fancy, widget: string}
+                  - {label: Title End, name: title_end, widget: string}
               - label: "Cards"
                 name: "cards"
                 widget: list
