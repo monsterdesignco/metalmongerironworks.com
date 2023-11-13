@@ -26,7 +26,12 @@
         "content": "When you choose us, you're supporting a business that is committed to serving and enriching the local community. We take pride in being your trusted California ironwork artisans."
       }
     ],
-    "image": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688294/Content_f8co99.png"
+    "image": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688294/Content_f8co99.png",
+    "title": {
+      "title_start": "The",
+      "title_fancy": "Metal Monger",
+      "title_end": "Difference"
+    }
   },
   "about": {
     "image": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688580/about-background_vfpmjb.png",
