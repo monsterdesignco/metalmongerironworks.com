@@ -2,7 +2,6 @@
     export let title = 'Change Me!';
     export let image = 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-content-1.png';
     export let cards
-
 </script>
 
 <section id="services" class="bg-gray-900 bg-cover" style="background-image: url({image})">
