@@ -5,12 +5,12 @@
     export let cards
 </script>
 
-<section id="contact" class="bg-white mt-20 dark:bg-gray-900 relative">
+<section id="contact" class="bg-white mt-28 dark:bg-gray-900 relative">
     <div class="z-10 style h-64 w-2/3 absolute -top-14 left-0" style="background-image: url('https://res.cloudinary.com/df9zmnqsz/image/upload/v1699901200/Metal%20Monger%20Iron%20Works/wf9byrg1kocxhtjlbcbp.png')"></div>
     <div class="bg-no-repeat bg-cover bg-center bg-gray-700 relative" style="background-image: url({image})">
         <div class="px-4 lg:pt-24 pt-24 pb-72 lg:pb-80 mx-auto max-w-screen-sm text-center lg:px-6 ">
             <h2 class="mb-4 text-4xl tracking-tight font-bold font-heading relative text-white z-20">{title}</h2>
-            <p class="mb-16 font-light text-white text-base relative z-20">{subtitle}</p>
+            <p class="mb-16 text-white text-lg relative z-20">{subtitle}</p>
         </div>
         <div class="absolute bg-contain bg-repeat-x bottom-0 h-[12px] w-full" style="background-image: url('https://res.cloudinary.com/df9zmnqsz/image/upload/v1699574820/mnwuvofbryskwpbcafqb.png')"></div>
     </div>
