@@ -10,7 +10,7 @@
     <div class="bg-no-repeat bg-cover bg-center bg-gray-700 relative" style="background-image: url({image})">
         <div class="px-4 lg:pt-24 pt-24 pb-72 lg:pb-80 text-center lg:px-6 ">
             <h2 class="mb-4 text-4xl tracking-tight font-bold font-heading relative text-white z-20">{title}</h2>
-            <p class="mb-16 text-white text-lg relative mx-auto w-[1000px] z-20">{subtitle}</p>
+            <p class="mb-16 text-white text-lg relative mx-auto z-20">{subtitle}</p>
         </div>
         <div class="absolute bg-contain bg-repeat-x bottom-0 h-[12px] w-full" style="background-image: url('https://res.cloudinary.com/df9zmnqsz/image/upload/v1699574820/mnwuvofbryskwpbcafqb.png')"></div>
     </div>
