@@ -32,10 +32,10 @@
                     {/if}
                 </h3>
                 <div class="flex justify-end mt-4">
-                    <a href="/">
+                    <a href={socialLinks.facebook}>
                         <img class="max-w-[32px]" src="https://res.cloudinary.com/df9zmnqsz/image/upload/v1698711062/Metal%20Monger%20Iron%20Works/l3qmzifszcssh3hclsoj.png" alt="facebook">
                     </a>
-                    <a href="/" class="pl-3">
+                    <a href={socialLinks.instagram} class="pl-3">
                         <img class="max-w-[32px]" src="https://res.cloudinary.com/df9zmnqsz/image/upload/v1698711062/Metal%20Monger%20Iron%20Works/z5rjpkxvvj3z9nmd59t4.png" alt="instagram">
                     </a>
                 </div>
