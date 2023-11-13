@@ -4,6 +4,7 @@
     export let image = 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-content-1.png';
     export let title
     export let content = "Content. Replace me!"
+    export let author
 </script>
 
 <section id="about" class="bg-gray-900 bg-cover" style="background-image: url({image})">
@@ -24,7 +25,13 @@
                 <p class="text-white text-right py-5">
                     <SvelteMarkdown source={content} />
                 </p>
-                <div class="flex justify-end">
+                <h3 class="text-xl text-right font-heading text-white">
+                    {author.author}
+                    {#if author.position}
+                        &emsp;<span class="text-primary-400">{author.position}</span>
+                    {/if}
+                </h3>
+                <div class="flex justify-end mt-4">
                     <a href="/">
                         <img class="max-w-[32px]" src="https://res.cloudinary.com/df9zmnqsz/image/upload/v1698711062/Metal%20Monger%20Iron%20Works/l3qmzifszcssh3hclsoj.png" alt="facebook">
                     </a>
