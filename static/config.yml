@@ -97,7 +97,6 @@ collections:
             widget: "object"
             collapsed: true
             fields:
-              - {label: Title, name: title, widget: markdown}
               - label: "Title"
                 name: "title"
                 widget: object
