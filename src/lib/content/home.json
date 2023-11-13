@@ -89,7 +89,10 @@
           "bullet": "Balcony Railings"
         },
         {
-          "bullet": "Restorations & Repairs"
+          "bullet": "Restorations"
+        },
+        {
+          "bullet": "Repairs"
         },
         {
           "bullet": "Handcrafted Designs"
@@ -120,7 +123,7 @@
     "image": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688840/contact-background_pve496.png",
     "cards": [
       {
-        "icon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688913/email-icon_z450ge.png",
+        "icon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1699918673/Icon_Shapes_3_n0nlzb.png",
         "title": "Email us",
         "content": "Email us or send a message above",
         "link": {
@@ -129,16 +132,16 @@
         }
       },
       {
-        "icon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688911/phone-icon_i8uiyw.png",
+        "icon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1699918673/Icon_Shapes_5_gq4qhn.png",
         "title": "Call us",
         "content": "We’re always happy to help",
         "link": {
-          "text": "(916) 792-0411",
+          "text": "916-792-0411",
           "link": "phone:916-792-0411"
         }
       },
       {
-        "icon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688909/map-pin-icon_r9ec5l.png",
+        "icon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1699918673/Icon_Shapes_6_iw1n4g.png",
         "title": "Location",
         "content": "We service El Dorado County, Sacramento County, Nevada County, & Washoe County, NV Placer County, CA"
       }
