@@ -97,7 +97,7 @@ collections:
             widget: "object"
             collapsed: true
             fields:
-              - {label: Title, name: title, widget: string}
+              - {label: Title, name: title, widget: markdown}
               - {label: Fancy Title, name: fancyTitle, widget: string}
               - {label: Content, name: content, widget: text}
               - {label: Background Image, name: image, widget: image}
