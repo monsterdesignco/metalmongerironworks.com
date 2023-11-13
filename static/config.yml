@@ -98,8 +98,15 @@ collections:
             collapsed: true
             fields:
               - {label: Title, name: title, widget: markdown}
-              - {label: Fancy Title, name: fancyTitle, widget: string}
-              - {label: Content, name: content, widget: text}
+              - label: "Title"
+                name: "title"
+                widget: object
+                collapsed: true
+                fields:
+                  - {label: Title Start, name: title_start, widget: string}
+                  - {label: Title Fancy, name: title_fancy, widget: string}
+                  - {label: Title End, name: title_end, widget: string}
+              - {label: Content, name: content, widget: markdown}
               - {label: Background Image, name: image, widget: image}
           - label: "Gallery"
             name:  "gallery"
