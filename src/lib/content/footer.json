@@ -2,11 +2,11 @@
   "logo": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698358912/nav-logo_thukcd.png",
   "navLinks": [
     {
-      "link": "#services",
+      "link": "/#services",
       "text": "Services"
     },
     {
-      "link": "#about",
+      "link": "/#about",
       "text": "About"
     },
     {
@@ -14,7 +14,7 @@
       "text": "Gallery"
     },
     {
-      "link": "#contact",
+      "link": "/#contact",
       "text": "Contact"
     },
     {
