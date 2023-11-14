@@ -39,7 +39,7 @@
         <div class="text-left">
           <div class="text-primary-400 text-4xl font-heading font-bold font-varna md:leading-[55px] mb-4  md:text-5xl">{secondSection.title}</div>
           <div class="text-stone-500 md:text-lg font-normal font-din leading-relaxed mb-4">{secondSection.content}</div>
-          <a href={secondSection.button.link} class="inline-flex uppercase items-center py-3 px-5 font-semibold text-center text-white rounded-lg bg-primary-400 hover:bg-primary-600 focus:ring-4 focus:outline-none focus:ring-primary-900 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">{secondSection.button.text}</a>
+          <a href={secondSection.button.link} class="inline-flex uppercase items-center py-3 px-5 font-semibold text-center text-white rounded-lg bg-primary-400 hover:bg-primary-500 focus:ring-4 focus:outline-none focus:ring-primary-900 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">{secondSection.button.text}</a>
         </div>
       </div>
     </div>
