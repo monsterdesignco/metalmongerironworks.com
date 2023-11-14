@@ -34,7 +34,7 @@
     }
   },
   "about": {
-    "image": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1698688580/about-background_vfpmjb.png",
+    "image": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1699922311/Content_1_tf0juj.png",
     "content": "I have over 18 years of experience in ornamental iron and have built over 200 spiral stairs cases throughout my career. I started Metal Monger Iron Works in 2018 with two goals in mind, quality and professionalism.\n</br>\n</br>\nI believe in 100% customer satisfaction and will return all calls and inquires within 24 hours. I also strive to complete proposals within 48 hours with quick turn over time for projects. I believe in providing all clients with quality metal work that is both aesthetically pleasing and functional.",
     "title": {
       "title_start": "The",
@@ -170,7 +170,6 @@
         "testimonial": "\"Dan was fantastic. Excellent customer service, fair price, and very professional work. Was referred by a close friend and couldn’t have been happier with how my railings turned out.\"",
         "author": "Corey Wood"
       }
-    ],
-    "icon": "https://res.cloudinary.com/df9zmnqsz/image/upload/v1699922303/quote-icon_kjfx73.png"
+    ]
   }
 }
