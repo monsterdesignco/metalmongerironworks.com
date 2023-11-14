@@ -199,6 +199,7 @@ collections:
             collapsed: true
             fields:
               - {label: Image, name: image, widget: image}
+              - {label: Icon, name: icon, widget: image}
               - label: Testimonials
                 name: testimonials
                 widget: list
