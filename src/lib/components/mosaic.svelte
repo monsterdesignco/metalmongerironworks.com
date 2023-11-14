@@ -2,7 +2,7 @@
     export let firstSection
     export let secondSection
 </script>
-<div id="services" class="max-w-screen-xl mx-auto py-10 mt-10 md:p-6">
+<div id="services" class="max-w-screen-xl mx-auto pt-10 mt-10 md:p-6">
     <div class="grid grid-cols- md:grid-cols-2 gap-6 bg-white p-6">
       <!-- Left Column -->
       <div class="flex flex-col justify-between">
