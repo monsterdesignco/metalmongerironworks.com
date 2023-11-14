@@ -10,7 +10,7 @@
     <div class="bg-no-repeat bg-cover bg-center bg-gray-700 relative" style="background-image: url({image})">
         <div class="px-4 lg:pt-24 pt-24 pb-72 lg:pb-80 text-center lg:px-6 ">
             <h2 class="mb-4 text-4xl tracking-tight font-bold font-heading relative text-white z-20">{title}</h2>
-            <p class="mb-16 text-white text-lg relative mx-auto z-20">{subtitle}</p>
+            <p class="mb-16 text-white text-lg md:text-xl relative mx-auto z-20">{subtitle}</p>
         </div>
         <div class="absolute bg-contain bg-repeat-x bottom-0 h-[12px] w-full" style="background-image: url('https://res.cloudinary.com/df9zmnqsz/image/upload/v1699574820/mnwuvofbryskwpbcafqb.png')"></div>
     </div>
@@ -38,7 +38,7 @@
                 <textarea name="message" id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-400 focus:border-primary-400 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-400 dark:focus:border-primary-400" placeholder="Leave a comment..."></textarea>
                 <p class="mt-4 text-sm text-gray-500">By submitting this form, you confirm that you have read and agree to Metal Monger’s <a href="/privacy-policy" class="text-primary-600 hover:underline dark:text-primary-400">privacy policy</a>.</p>
             </div>
-            <button type="submit" class="py-3 px-5 text-sm font- uppercase text-center text-white rounded-lg bg-primary-400 sm:w-fit hover:bg-primary-600 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
+            <button type="submit" class="py-3 px-5 text-sm font-semibold uppercase text-center text-white rounded-lg bg-primary-400 sm:w-fit hover:bg-primary-600 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
         </form>
         <div class="space-y-8 text-center md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
             {#each cards as card}

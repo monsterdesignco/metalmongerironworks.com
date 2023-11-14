@@ -13,7 +13,7 @@
             <p class="mb-6 font-normal text-black lg:mb-8 md:text-lg lg:text-xl">
                 {content}
             </p>
-            <a href="{button.link}" class="inline-flex uppercase items-center py-3 px-5 font-semibold text-center text-white rounded-lg bg-primary-400 hover:bg-primary-600 focus:ring-4 focus:outline-none focus:ring-primary-900 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+            <a href="{button.link}" class="inline-flex uppercase items-center py-3 px-5 font-semibold text-center text-white rounded-lg bg-primary-400 hover:bg-primary-500 focus:ring-4 focus:outline-none focus:ring-primary-900 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
                 {button.text}
             </a>
         </div>
